@@ -1,0 +1,40 @@
+import "./i18n";
+import Counter from "./components/Counter";
+import { Head, Header, Footer } from "mdx-deck";
+import ChangeLang from "./components/ChangeLang";
+import IntlContent from "./components/IntlContent";
+
+<Head>
+  <title>My Presentation | @jossdz</title>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@jossdz" />
+  <meta name="twitter:title" content="My Presentation" />
+  <meta name="twitter:description" content="A really great presentation" />
+  <meta name="twitter:image" content="https://example.com/card.png" />
+</Head>
+
+<Header>
+
+## i18n slides
+
+</Header>
+
+<Footer>
+  
+@jossdz
+
+
+</Footer>
+
+<ChangeLang/>
+
+<IntlContent htmlElement="h1" label="key"/>
+
+
+<Counter />
+
+---
+
+## this is a mix of markdown and React
+
+<IntlContent label="list" htmlElement="ul" />
